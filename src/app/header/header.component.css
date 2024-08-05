@@ -1,0 +1,52 @@
+/* Active Link Styles */
+.active-link {
+  color: lightgray;
+  text-decoration: underline;
+}
+
+/* Navbar Styles */
+.navbar {
+  background-color: #34495e !important;
+  padding: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Logo Styles */
+.logo {
+  border: none !important;
+  border-radius: 0;
+}
+
+.logo a,
+.navbar-collapse ul li a {
+  color: #ecf0f1 !important;
+  font-weight: 500;
+}
+
+#navbarNav {
+  margin: 0 auto !important;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Button Styles */
+.btn {
+  background-color:;
+  border: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 25px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.btn:hover,
+.btn:focus,
+.btn:active {
+  background-color: #27ae60;
+  outline: none !important;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  transform: scale(1.05);
+  color: #fff;
+}

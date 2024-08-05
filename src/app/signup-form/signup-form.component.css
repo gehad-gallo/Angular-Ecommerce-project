@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
+
+*,
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+  background-color: #f4f4f4;
+  overflow: auto;
+}
+
+.form-holder {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.form-holder .form-content {
+  position: relative;
+  display: block;
+  padding: 40px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 500px;
+  width: 100%;
+}
+
+.form-content .form-items {
+  padding: 20px;
+  border-radius: 5px;
+  text-align: left;
+  transition: all 0.3s ease;
+}
+
+.form-content h3 {
+  color: #333;
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.form-content h3.form-title {
+  margin-bottom: 20px;
+}
+
+.form-content p {
+  color: #666;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.form-content label,
+.was-validated .form-check-input:invalid ~ .form-check-label,
+.was-validated .form-check-input:valid ~ .form-check-label {
+  color: #333;
+}
+
+.form-content input[type="text"],
+.form-content input[type="password"],
+.form-content input[type="email"],
+.form-content select {
+  width: 100%;
+  padding: 12px 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  font-size: 14px;
+  color: #333;
+  transition: border-color 0.3s ease;
+  margin-top: 10px;
+}
+
+.form-content input[type="text"]:focus,
+.form-content input[type="password"]:focus,
+.form-content input[type="email"]:focus,
+.form-content select:focus {
+  border-color: #007bff;
+  background-color: #fff;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border: none;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  cursor: pointer;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active {
+  background-color: #0056b3;
+  transform: translateY(-2px);
+}
+
+.form-content textarea {
+  width: 100%;
+  padding: 12px 15px;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  font-size: 14px;
+  color: #333;
+  outline: none;
+  resize: vertical;
+  height: 120px;
+  margin-top: 10px;
+}
+
+.form-content textarea:focus {
+  border-color: #007bff;
+  background-color: #fff;
+}
+
+.mv-up {
+  margin-top: -5px !important;
+  margin-bottom: 5px !important;
+}
+
+.invalid-feedback {
+  color: #e74c3c;
+}
+
+.valid-feedback {
+  color: #27ae60;
+}

@@ -1,0 +1,200 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap");
+
+*,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  background-color: #fdfdfd;
+  color: #333;
+  padding-top: 20px;
+  line-height: 1.6;
+}
+
+.item {
+  background-color: #f9f9f9;
+  margin-top: 1rem;
+  border-radius: 1rem;
+  padding: 1rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.pictures-hold {
+  background-color: #007bff;
+  border-radius: 1rem;
+  padding: 1rem;
+  color: #fff;
+  text-align: center;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 2.5rem;
+  color: #333;
+  margin: 0.5rem 0;
+}
+
+h2 {
+  font-weight: 500;
+  font-size: 2rem;
+  color: #444;
+  margin: 0.5rem 0;
+}
+
+h3 {
+  font-weight: 400;
+  font-size: 1.75rem;
+  color: #555;
+  margin: 0.5rem 0;
+}
+
+h4 {
+  font-weight: 500;
+  font-size: 1.5rem;
+  color: #666;
+  margin: 0.5rem 0;
+}
+
+h5 {
+  font-weight: 700;
+  font-size: 1.25rem;
+  color: #777;
+  margin: 0.5rem 0;
+}
+
+p {
+  font-size: 1rem;
+  color: #888;
+  margin: 0.5rem 0;
+}
+
+.score {
+  font-weight: 400;
+  font-size: 1.5rem;
+  color: #333;
+  margin-top: 1rem;
+}
+
+.score_num {
+  font-weight: 700;
+  font-size: 4rem;
+  color: #007bff;
+  line-height: 1.2;
+}
+
+/* Short descr */
+
+.item {
+  margin-bottom: 1rem;
+  padding: 1rem;
+}
+
+.item-details {
+  margin-left: 1rem;
+}
+
+.plan {
+  background-color: #007bff;
+  padding: 0.5rem 1rem;
+  margin-left: 1rem;
+  color: #fff;
+  border-radius: 0.5rem;
+}
+
+.plan p {
+  font-size: 0.875rem;
+  line-height: 1.2;
+  margin: 0;
+}
+
+.price {
+  color: #ff6347;
+  font-weight: 700;
+}
+
+#myList {
+  float: right;
+  border-radius: 0.5rem;
+  border: 0;
+  height: 40px;
+  width: 50px;
+  padding: 5px;
+  font-size: 1.25rem;
+  background-color: #ff6347;
+  color: #fff;
+  text-align: center;
+}
+
+/* Product feature */
+
+.block {
+  text-align: center;
+  margin-top: 100px;
+}
+
+/* Buttons styling */
+
+.btn-success {
+  background-color: #28a745;
+  border: 0;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-success:hover {
+  background-color: #218838;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border: 0;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.open > .dropdown-toggle.btn-primary {
+  background-color: #0056b3;
+}
+
+#myList {
+  background-color: #007bff;
+}
+
+/* Star rating */
+
+.rating {
+  margin-top: 20px;
+  font-size: 1.5rem;
+  color: #ffd700;
+  text-align: left;
+}
+
+.rating span.star {
+  font-family: FontAwesome;
+  display: inline-block;
+}
+
+.rating span.star:before {
+  content: "\f005";
+  padding-right: 5px;
+  color: #ccc;
+}
+
+span.star.filled:before {
+  color: #ffd700;
+  content: "\f005";
+}

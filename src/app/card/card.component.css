@@ -1,0 +1,54 @@
+/* Row Styles */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding: 30px;
+  background: #f8f9fa;
+}
+
+/* Card Title Styles */
+.card-title {
+  font-size: 1.5rem;
+  height: auto;
+  line-height: 1.2;
+  margin-bottom: 15px;
+  color: #34495e;
+  text-transform: capitalize;
+  border-bottom: 2px solid #3498db;
+  padding-bottom: 5px;
+}
+
+/* Card Styles */
+.card {
+  position: relative;
+  width: 100%;
+  max-width: 300px;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  background: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+  border-left: 4px solid #e74c3c;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Out of Stock Styles */
+.out-stock {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  background: #e74c3c;
+  color: blue;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 0.9rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
